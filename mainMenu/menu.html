@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<!-- GOOGLE FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800" rel="stylesheet">
+	<!-- CSS LINK -->
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<!-- BOOTSTRAP CSS LINK -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- FONT AWESOME LINK -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body class="menuBody">
+
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="../index.html">Solo Learn</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="../index.html">Home</a></li>
+	        <li class="dropdown active">
+          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown Menu <span class="caret"></span></a>
+          		<ul class="dropdown-menu">
+          			<li><a href="#">Menu</a></li>
+            		<li role="separator" class="divider"></li>
+            		<li><a href="html/html.html">HTML</a></li>
+            		<li><a href="#">CSS</a></li>
+            		<li><a href="#">JavaScript</a></li>
+          		</ul>
+        	</li>
+	        <li><a href="#">About</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+	        <li><a href="#"><i class="fas fa-user"></i> Login</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<h1 id="menu">Menu</h1>
+
+	<div class="list-group"> 
+		<a href="html/html.html" class="list-group-item"> 
+			<h4 class="list-group-item-heading">HTML &lt;Front End&gt;</h4> 
+			<p class="list-group-item-text">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.</p> 
+		</a> 
+		<a href="#" class="list-group-item"> 
+			<h4 class="list-group-item-heading">CSS &lt;Front End&gt;</h4> 
+			<p class="list-group-item-text">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</p> 
+		</a> 
+		<a href="#" class="list-group-item"> 
+			<h4 class="list-group-item-heading">JavaScript &lt;Front End&gt;</h4> 
+			<p class="list-group-item-text">JavaScript often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.</p> 
+		</a> 
+	</div>
+
+	<!-- jQuery CDN -->
+	<script
+  	src="https://code.jquery.com/jquery-3.3.1.js"
+  	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  	crossorigin="anonymous"></script>
+
+	<!-- bootstrap CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
